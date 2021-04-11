@@ -16,7 +16,7 @@ Add the following to your `configuration.yaml`:
 
 ```yaml
 fan:
-  platform: philips_airpurifier
+  platform: philips_airpurifier_coap
   host: 192.168.0.17
   model: ac4236
 ```
@@ -29,15 +29,15 @@ Add the following to your `configuration.yaml`:
 
 ```yaml
 fan:
-  - platform: philips_airpurifier
+  - platform: philips_airpurifier_coap
     host: 192.168.0.100
     model: ac1214
 
-  - platform: philips_airpurifier
+  - platform: philips_airpurifier_coap
     host: 192.168.0.101
     model: ac1214
 
-  - platform: philips_airpurifier
+  - platform: philips_airpurifier_coap
     host: 192.168.0.102
     model: ac1214
 ```
@@ -48,7 +48,7 @@ fan:
 ## Configuration variables:
 Field | Value | Necessity | Description
 --- | --- | --- | ---
-platform | `philips_airpurifier` | *Required* | The platform name.
+platform | `philips_airpurifier_coap` | *Required* | The platform name.
 host | 192.168.0.17 | *Required* | IP address of the Purifier.
 model | ac4236 | *Required* | Model of the Purifier.
 name | Philips Air Purifier | Optional | Name of the Fan.
@@ -97,7 +97,7 @@ To aquire debug-logs, add the following to your `configuration.yaml`:
 ```yaml
 logger:
   logs:
-    custom_components.philips_airpurifier: debug
+    custom_components.philips_airpurifier_coap: debug
     coap: debug
     aioairctrl: debug
 ```
