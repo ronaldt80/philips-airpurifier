@@ -1,0 +1,57 @@
+set_child_lock_on:
+  description: Turn the child lock on
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+
+set_child_lock_off:
+  description: Turn the child lock off
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+
+set_display_backlight_on:
+  description: Turn the display backlight on
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+
+set_display_backlight_off:
+  description: Turn the display backlight off
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+
+set_light_brightness:
+  description: Set the light brightness
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+    brightness:
+      description: Brightness as integer value between 0 and 100
+      example: 50
+
+set_function:
+  description: Set function of the device
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+    function:
+      description: One of "purification" or "purification_humidification"
+      example: purification
+
+set_humidity_target:
+  description: Set target humidity
+  fields:
+    entity_id:
+      description: Name of the fan entity
+      example: "fan.philips_airpurifier"
+    humidity_target:
+      description: One of 40, 50, 60, 70
+      example: 40
