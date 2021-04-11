@@ -3,6 +3,10 @@
 This is a `Local Push` integration for Philips airpurifiers.
 Currently only encrypted-CoAP is implemented.
 
+## BREAKING CHANGE:
+
+Change of platform name from philips_airpurifier to philips_airpurifier_coap to allow parallel operation of http custom component
+
 ## Install:
 
 Add `https://github.com/betaboon/philips-airpurifier.git` as custom-repository in [HACS](https://hacs.xyz/docs/faq/custom_repositories/)
