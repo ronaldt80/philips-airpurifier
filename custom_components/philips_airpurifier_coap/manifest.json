@@ -6,6 +6,6 @@
   "dependencies": [],
   "codeowners": ["@betaboon"],
   "requirements": [
-    "aioairctrl @ git+https://github.com/Peter-J/aioairctrl"
+    "aioairctrl @ git+https://github.com/ronaldt80/aioairctrl"
   ]
 }
